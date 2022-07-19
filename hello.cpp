@@ -1,6 +1,7 @@
 #include<iostream>
+#include"head.h"
 
 int main(){
-    std::cout<<"Hello World!"<<std::endl;
-    std::cout<<"doaiwdja"<<std::endl;
+    int a[5] = {1,2,3,4,5};
+    std::cout<<"max is"<<findMax(a,5)<<std::endl;
 }
